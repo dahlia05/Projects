@@ -1,0 +1,77 @@
+<div class="banner">
+	<div class="status-panel">
+		<div id="profilepicture" class="imageHolder">
+
+			<img ng-src="../img/profile_pics/pic1.jpg"
+				class="img-responsive img-circle img-profile"
+				alt="Profile Picture is not available." />
+		</div>
+		<div id="shortstatus">
+		<dl>
+						<dd>{{resume.basics.name}}</dd>
+						<dd>{{resume.basics.label}}</dd>
+						<dd>{{resume.basics.phone}}</dd>
+						<dd>{{resume.basics.email}}</dd>
+						<dd >{{resume.basics.website}}</dd>
+					</dl>
+		</div>
+	</div>
+
+	<div class="banner-image">
+		<img class="img-responsive" alt="Cover photo"
+			src="https://lh5.googleusercontent.com/-eAPognoXTwE/UYFKq101UyI/AAAAAAAABiY/REl1Ei8txP8/w1600-h900/default_cover_5_ff9ff46d48dc181084c9c23a120b68d8.jpg">
+
+	</div>
+</div>
+<div ng-controller="AppController" class="sample" layout="column"
+	ng-cloak>
+	<md-content class="md-padding"> <md-tabs
+		md-selected="selectedIndex" md-border-bottom md-autoselect>
+	<md-tab ng-repeat="tab in tabs" ng-disabled="tab.disabled"
+		label="{{tab.title}}">
+	<div class="demo-tab tab{{$index%4}}"
+		style="padding: 25px; text-align: center;">
+		<div id="tab-content">
+
+			<div ng-if="tab.title === 'JobExperience'">
+				<div class="row " id="jobexpeirience" ng-if="resume.work.length>0">
+					<div ng-repeat="w in resume.work track by $index"
+						class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<experiencecard work="w" number="{{$index}}"></experiencecard>
+					</div>
+				</div>
+			</div>
+			
+			<div ng-if="tab.title === 'Education'">
+				<div class="row " id="educations" ng-if="resume.education.length>0">
+					<div ng-repeat="e in resume.education track by $index"
+						class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<educationcard education="e" number="{{$index}}"></educationcard>
+					</div>
+				</div>
+			</div>
+			
+			<div ng-if="tab.title === 'Skills'">
+				<div class="row " id="skills" ng-if="resume.skills.length>0">
+					<div ng-repeat="s in resume.skills track by $index"
+						class="col-lg-3 col-md-6 col-sm-12 col-xs-12 card-container">
+						<skillcard skill="s" number="{{$index}}"></skillcard>
+					</div>
+				</div>
+			</div>
+			
+			<div ng-if="tab.title === 'Language'">
+				<div class="row " id="language" ng-if="resume.languages.length>0">
+					<div ng-repeat="l in resume.languages track by $index"
+						class="col-lg-4 col-md-6 col-sm-12 col-xs-12 card-container">
+						<languagecard language="l" number="{{$index}}"></languagecard>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+	</md-tab> </md-tabs> </md-content>
+</div>

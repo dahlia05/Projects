@@ -1,0 +1,326 @@
+{
+  "basics": {
+    "name": "Mansura Habiba",
+    "label": "Staff Software Engineer at IBM in Ireland",
+    "phone": "+353xxxxxxxxxx",
+    "email": "mansura.habiba@gmail.com",
+    "website": "https://sites.google.com/site/mansurahabiba/",
+    "summary": "Ms. Habiba has gained a lot of experience in application development as a software engineer and team lead for international companies, e.g. Samsung, in several administrative environments. She has worked with distributed team members over Ireland, Denmark, India, South Korea, The Netherlands and Bangladesh to define product coding standards, and developed according to international requirement specifications. Therefore, she possesses strong communication and behavioral skills. \nMs Habiba has worked in the software development industry for employers in business administration, health care, mobile financial services, banking, telecommunication and smart phone manufacturing.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Dublin",
+      "countryCode": "",
+      "region": "Europe"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "IBM in Ireland",
+      "position": "Staff Software Engineer",
+      "website": "",
+      "startDate": "2014-09-01",
+      "summary": "IBM Analytics - Smarter Workforce",
+      "highlights": [],
+      "logo":"logo_ibm.png"
+    },
+    {
+      "company": "DICTU",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2014-07-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-09-01",
+       "logo":"logo_dictu.png"
+    },
+    {
+      "company": "ASTRON",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2014-06-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-09-01",
+       "logo":"logo_astron.png"
+    },
+    {
+      "company": "Group 2000",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2014-03-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-05-01",
+       "logo":"logo_g2000.png"
+    },
+    {
+      "company": "Security and Communication Networks (Willy)",
+      "position": "Manuscript Reviewer",
+      "website": "",
+      "startDate": "2014-02-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "ASTRON",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2013-11-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-01-01",
+       "logo":"logo_astron.png"
+    },
+    {
+      "company": "CIMSOLUTIONS",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2013-05-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-09-01",
+       "logo":"logo_cim.png"
+    },
+    {
+      "company": "Mindcommerce",
+      "position": "Market Researcher",
+      "website": "",
+      "startDate": "2012-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-01-01"
+    },
+    {
+      "company": "Samsung R&D Institute Bangladesh (SRBD)",
+      "position": "Senior Software Engineer (Team Lead)",
+      "website": "",
+      "startDate": "2011-11-01",
+      "summary": "-   Worked on communication protocols e.g.  Bluetooth, WiFi, WiFi Direct, NFC, GPS, SyncMl,  Device Encryption, Device Synchronization and Fotaclient for Android Mobile Phone OS (Smart Phone and tablets). \n-    Developed applications for NFC to be used with Smart Phone and tablets.\n-    Managed  three different teams for Wifi/GPS, SyncMl and Bluetooth/NFC as a Team Lead \n-    Provide training Engineers on Android and Connectivity protocols",
+      "highlights": [],
+      "endDate": "2013-04-01"
+    },
+    {
+      "company": "Grameen Solutions",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2011-01-01",
+      "summary": "Developed Mobile Financial Solutions based on Macalla platform (Roamware). Worked on developing mobile financial solutions for several banks (e.g ecobank) and telecommunication operators (STC telecom Kuwait, Al-Bahar telecom Kuwait, Vodaphone Romania) using expertise on J2EE, JSP, JSF, Spring, XML, Struts 2, XHTML, Hibernate, JasperReport, JUnit, JQuery, Castor, JDOM, J2ME, AJAX, Ant, Oracle, PL/SQL, Agile, SoapUi, Toad, Eclipse, Apache Tomcat, iReport, Adoobe Illustrator, CVS, SVN, SSh Secure Shell Client, Target Process",
+      "highlights": [],
+      "endDate": "2011-09-01",
+       "logo":"../img/logo_gs.png"
+    },
+    {
+      "company": "Grameen Solutions Limited",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2009-07-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2010-12-01",
+       "logo":"../img/logo_gs.png"
+    },
+    {
+      "company": "Bording Vista Limited",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2008-04-01",
+      "summary": "Participated in Requirement Analysis, designing use cases along with database schema and developed  web applications with the expertise on J2SE, JSP, JSF, Spring, XML, XHTML, Hibernate MySQL, JasperReport, Appfuse, Maven, AJAX, Ant, Eclipse, Toad, Adobe Illustrator, Tomcat, Dream Weaber, iReport. Developed RCP applications as well.",
+      "highlights": [],
+      "endDate": "2009-06-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "American International University-Bangladesh",
+      "area": "Software Engineering",
+      "studyType": "Master of Science (M.Sc.)",
+      "startDate": "2011-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "institution": "Khulna University",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.Sc",
+      "startDate": "2003-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2007-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": ["Scrum","RUP"]
+    },
+    {
+      "name": "Android Development",
+      "level": "",
+      "keywords": [{ "text":"Android Studio"},{ "text": "IBM Mobile First"},{ "text":  "Ionic"},{ "text": "Eclipse"},{ "text": "SyncMl"},{ "text": "FotaClient"},{ "text": "WiFi"},{ "text": "WiFi-Direct"},
+      { "text": "CDM"},{ "text": "NFC"},{ "text": "Bluetooth"},{ "text": "OS Deveopment"},{ "text": "Application Development"}]
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Developemnt",
+      "level": "",
+      "keywords":[
+{ "text": "HTMl"},{ "text": "CSS"},
+{ "text": "SaSS"},{ "text": "Less"},
+{ "text": "JQuery"},{ "text": "Ionic"},
+{ "text": "FireBug"},{ "text": "Javascript"},
+{ "text": "JSON"},{ "text": "JSP"},
+{ "text": "AngularJs"},{ "text": "JSF"},
+{ "text": "RequireJs"},{ "text": "NodeJS"},
+{ "text": "ExpressJs"},{ "text": "Bootstrap"}
+]
+    },
+    {
+      "name": "Concurrent Versions System",
+      "level": "Master",
+      "keywords": [{ "text": "CVS"},{ "text": "SVN"},{ "text": "GitHub"},{ "text": "RTC"},{"text":"Tortoise SVN"}
+     ]
+    },
+    {
+      "name": "PL/SQL",
+      "level":"Master",
+      "keywords": []
+    },
+    {
+      "name": "MVC",
+      "level": "",
+      "keywords": []
+    },
+    
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scala",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+   
+
+    
+    {
+      "name": "WebSphere Portal",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    
+    
+    {
+      "name": "cloudant",
+      "level": "",
+      "keywords": []
+    },
+   
+    {
+      "name": "J2EE",
+      "level": "",
+      "keywords": [{ "text": "Spring"},{ "text": "Hibernate"},
+{ "text": "EJB"},{ "text": "Design Pattern"},
+{ "text": "REST"},{ "text": "Client/Server"}
+]
+    },
+    
+
+    {
+      "name": "Eclipse",
+      "level": "",
+      "keywords": []
+    },
+ 
+    {
+      "name": "Tomcat",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ant",
+      "level": "",
+      "keywords": []
+    },
+    
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "UML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Maven",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional",
+      "color":"red"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Full professional",
+      "color":"orange"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Full professional",
+      "color":"green"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Basic",
+      "color":"white"
+    }
+  ],
+  "references": []
+}

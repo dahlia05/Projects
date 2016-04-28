@@ -1,0 +1,33 @@
+
+<div class="flip-container"
+	ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front card">
+			
+				<h1>{{education.studyType}}</h1>
+
+				<div class="card-body">
+					
+					<dl>
+						<dd>Major: {{education.area}}</dd>
+						<dd>Institution: {{education.institution}}</dd>
+						<dd>Start Date : {{education.startDate | date}}</dd>
+						<dd ng-if="education.endDate">Passing Year: {{education.endDate | date}}</dd>
+						<dd ng-if="education.gpa">GPA: {{gpa}}</dd>
+					</dl>
+				</div>
+			
+		</div>
+		<div class="back card">
+		<h1> Courses</h1>
+			<div class="card-body">
+				
+				
+				
+					<p ng-if="education.courses">{{education.courses}}</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+

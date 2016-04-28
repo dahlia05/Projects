@@ -1,0 +1,149 @@
+@CHARSET "ISO-8859-1";
+
+
+.banner {
+	width: 100%;
+	padding: 30px;
+	overflow: hidden;
+	max-height: 400px;
+	display: inline-block;
+	
+}
+.banner-image {
+	width: 60%;
+	float: right;
+	display: inline-block;
+	hight: 100%;background-color: black;
+}
+
+.status-panel {
+	width: 40%;
+	display: inline-block;
+	hight: 100%;
+	background-color: black;
+	color:#fff;
+	text-align:center;
+	padding:90px;
+}
+
+.imageHolder {
+	padding: 0px;
+	margin: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+
+	display: block;
+}
+
+.img-profile {
+	margin: auto;
+	display: block;
+	height: 100px;
+	width: 100px;
+}
+
+/* start the styles for  card */ 
+.card-container {
+	padding: 30px;
+	
+}
+.card {
+	background-color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	height:450px;
+}
+.card h1 {
+    margin:0px;
+    padding:10px;
+    font-size: 16px;
+
+    color: #FFFFFF;
+    background-color: #008a52;
+    border: 2px solid #008a52;
+    font-weight:400;
+   
+}
+.card p {
+    margin:0px;
+    padding:10px;
+    font-weight:400;
+    font-size: 16px;
+   text-align:center;
+}
+.card-footer {
+	height: 10%;
+	bottom: 0;
+	position: relative;
+	border: 0px;
+	background-color: #A6A8AB;
+}
+
+.card-body {
+
+}
+.logo{
+	display: inline-block;
+	float:left;
+}
+.header {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	font-weight: 100;
+	float: left;
+}
+
+.darkGrey {
+	background-color: #E6E7E8;
+}
+
+.lightGrey {
+	background-color: #F5F5F5;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	 width: 450px; 
+    height: 280px;
+    margin: 30px 0px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}

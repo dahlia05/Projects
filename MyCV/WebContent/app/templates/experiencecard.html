@@ -1,0 +1,36 @@
+
+<div class="flip-container"
+	ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front card">
+			
+				<h1>{{work.position}}</h1>
+
+				<div class="card-body">
+					<div class="imageHolder logo" >
+					 <img class="img img-responsible img-profile" ng-src="../img/{{work.logo}}"></img>
+					</div>
+					<dl>
+						<dd>Company: {{work.company}}</dd>
+						<dd>Start Date : {{work.startDate | date}}</dd>
+						<dd ng-if="work.endDate">End Date: {{work.endDate | date}}</dd>
+					</dl>
+				</div>
+			
+		</div>
+		<div class="back card">
+			<div class="card-body">
+				
+				
+				
+					<p ng-if="work.summary">{{work.summary}}</p>
+					
+
+				
+				
+				<p ng-if="work.highlights">{{work.highlights}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
