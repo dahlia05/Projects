@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component,OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'my-friend',
@@ -16,6 +16,7 @@ export class CardComponent implements OnInit{
 	 em:boolean;
 	 loc:boolean;
 	 pass:boolean;
+	 bday:boolean;
 mouseover:boolean;
 ngOnInit() { this.selectPerson('name'); }
 selectPerson(label){
@@ -27,7 +28,7 @@ selectPerson(label){
 	 }
 	else if(label === 'email') {
 	 this.selectedValue = this.friend.email;
-		this.em= true; 
+	 this.em= true; 
 	 this.title= "My email address is";
 	 }
 	else if(label === 'location') {
