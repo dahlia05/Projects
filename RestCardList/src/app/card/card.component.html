@@ -1,0 +1,23 @@
+<div class="card">
+	<div class="details">
+		<div class="user_photo horizontal_center" id="user_photo">
+			<img src="{{friend.picture.large}}">
+		</div>
+		<p id="user_title">{{title}}</p>
+		<p id="user_value">{{selectedValue}}</p>
+	</div>
+	<ul class="values_list horizontal_center" id="values_list"    >
+		<li data-label="name" [class.active]="na" (mouseover)="selectPerson('name')"
+     (mouseout)="na=false"></li>
+		<li data-label="email" data-caps="false" [class.active]="em" (mouseover)="selectPerson('email')"
+     (mouseout)="em=false"></li>
+		<li  data-label="birthday" [class.active]="bday" (mouseover)="selectPerson('birthday')"
+     (mouseout)="bday=false"></li>
+		<li  data-label="location" [class.active]="loc" (mouseover)="selectPerson('location')"
+     (mouseout)="loc=false"></li>
+		<li  data-label="phone" [class.active]="mouseover" (mouseover)="selectPerson('phone')"
+     (mouseout)="mouseover=false"></li>
+		<li data-label="pass" data-caps="false" [class.active]="pass" (mouseover)="selectPerson('pass')"
+     (mouseout)="pass=false"></li>
+	</ul>
+</div>
